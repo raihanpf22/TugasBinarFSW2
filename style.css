@@ -1,0 +1,63 @@
+.btn-kontak {
+    background-color: #173573;
+    color: white;
+    border: none;
+    border-radius: 0.375rem;
+    padding: 6px 12px;
+    
+}
+
+.btn-kontak:hover{
+    background-color: white;
+        color: black;
+        border: none;
+        border-radius: 0.375rem;
+}
+
+.btn-masuk{
+    text-decoration: none;
+    padding: 6px 12px;
+    color: black;
+}
+
+.home-section{
+    margin-top: 7%;
+}
+
+.text-dark-blue{
+    color: #173573;
+}
+
+.img-illustration{
+    width: 500px;
+    height: 500px;
+}
+
+.img-chat{
+    width: 400px;
+}
+
+@media (max-width: 575.98px) {
+ .home-section-1{
+    text-align: center;
+ }
+ .img-chat{
+    width: 450px;
+    margin-bottom: 50px;
+ }
+ .box {
+     width: 100%;
+     padding: 10px;
+ }
+}
+.bg-dark-blue {
+    background-color: #173573;
+}
+
+@media (min-width: 768px) {
+    .img-chat {
+            width: 650px;
+            margin-bottom: 50px;
+        }
+    
+}
